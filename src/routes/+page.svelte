@@ -8,15 +8,18 @@
 	export let data;
   
 	$: currentSection = $page.url.pathname === '/' ? 'home' : $page.url.pathname.slice(1);
-	$: currentOrg = data.organizations.find(org => org.id === currentSection);
+	$: organizations = data?.organizations || [];
+	$: events = data?.events || [];
+	$: locations = data?.locations || [];
+	$: currentOrg = organizations.find((org) => org.id === currentSection);
   </script>
   
   {#if currentSection === 'home'}
 	<HomePage/>
   {:else if currentSection === 'events'}
-	<EventsPage events={data.events} />
+	<EventsPage {events} />
   {:else if currentSection === 'locations'}
-	<LocationsPage locations={data.locations} />
+	<LocationsPage {locations} />
   {:else if currentOrg}
 	<OrganizationView organization={currentOrg} />
   {:else}

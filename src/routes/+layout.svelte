@@ -93,14 +93,18 @@
 {/if}
 
 <div class="app-container">
-	<Sidebar {currentSection} onNavigate={handleNavigate} />
-	
+	<Sidebar
+		{currentSection}
+		onNavigate={handleNavigate}
+		organizations={data?.organizations || []}
+	/>
+
 	<main class="main-content">
-	  <slot />
+		<slot />
 	</main>
-  
+
 	<Footer />
-  </div>
+</div>
 
 <style>
 	.app-container {
