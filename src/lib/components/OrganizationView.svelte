@@ -57,14 +57,14 @@
     {/if}
   </div>
 
-  {#if organization.notes && organization.notes.length}
+  <!-- {#if organization.notes && organization.notes.length}
     {#each organization.notes as note}
       <div class="note">
         <div class="note-title">{note.title}</div>
         <p>{note.content}</p>
       </div>
     {/each}
-  {/if}
+  {/if} -->
 
   {#if organization.investigations && organization.investigations.length}
     <section class="section">
@@ -167,7 +167,7 @@
   }
 
   .note {
-    background: #fffbeb;
+    background: #202020;
     border-left: 3px solid #f59e0b;
     padding: 1.25rem;
     border-radius: 4px;

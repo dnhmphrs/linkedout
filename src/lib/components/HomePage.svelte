@@ -3,12 +3,12 @@
 </script>
 
 <div class="home">
-  <!-- <header class="hero">
+  <header class="hero">
     <h1>LinkedOut</h1>
-    <p>Berlin's geopolitical, investigative, and strategic advisory network.</p>
-  </header> -->
+    <p>A sketch of Berlin's geopolitical, investigative, and strategic advisory network.</p>
+  </header>
 
-  <!-- <div class="intro-grid">
+  <div class="intro-grid">
     <div class="intro-card">
       <h2>The Investigative Commons</h2>
       <p>Forensis, Forensic Architecture, and ECCHR operate from shared Kreuzberg spaces—challenging state and corporate violence through spatial forensics and strategic litigation.</p>
@@ -24,7 +24,7 @@
       <h2>Digital Rights & Algorithmic Accountability</h2>
       <p>Organizations monitoring automated decision-making systems, AI governance, and the erosion of digital rights.</p>
     </div>
-  </div> -->
+  </div>
 </div>
 
 <style>
@@ -44,7 +44,7 @@
   }
 
   .hero p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--text-secondary);
     line-height: 1.7;
   }

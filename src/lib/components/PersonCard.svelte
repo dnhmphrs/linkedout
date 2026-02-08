@@ -7,7 +7,7 @@
     <div class="name">
       {person.name}
       {#if person.verified}
-        <span class="badge">✓ Verified</span>
+        <span class="badge">✓ Verified Email</span>
       {/if}
     </div>
     <div class="role">{person.role}</div>

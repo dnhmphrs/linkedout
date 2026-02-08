@@ -21,7 +21,7 @@
 
 	// Setting up a camera
 	let camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 400);
-	camera.position.z = 100;
+	camera.position.z = 50;
 
 	// Setting up the renderer. This will be called later to render scene with the camera setup above
 	let renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -96,9 +96,9 @@
 
 		geometry.attributes.position.needsUpdate = true;
 
-		group.rotation.x += 0.002;
-		group.rotation.y += 0.002;
-		group.rotation.z += 0.002;
+		group.rotation.x -= 0.001;
+		group.rotation.y -= 0.001;
+		group.rotation.z -= 0.001;
 	};
 
 	window.addEventListener(
@@ -144,7 +144,7 @@
 		top: 0;
 		left: 0;
 		z-index: -10;
-		/* opacity: 0.5; */
+		opacity: 0.5;
 		overflow: hidden;
 
 		width: 100vw;

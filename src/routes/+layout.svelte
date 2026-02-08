@@ -11,17 +11,11 @@
 
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { goto } from '$app/navigation';
+
 	// import './app.css';
 
 	export let data;
 	let Geometry;
-
-	function handleNavigate(section) {
-		goto(`/${section === 'home' ? '' : section}`);
-	}
-
-	$: currentSection = $page.url.pathname === '/' ? 'home' : $page.url.pathname.slice(1);
 
 	$: if (browser && data?.analyticsId) {
 		webVitals({
@@ -32,10 +26,7 @@
 	}
 
 	function handleScreen() {
-		// screen size
 		screenSize.set(getScreenSize());
-
-		// device type
 		screenType.set(getDeviceType());
 		isIframe.set(window.location !== window.parent.location);
 	}
@@ -60,30 +51,6 @@
 	<meta name="keywords" content="" />
 	<meta name="author" content="AUFBAU" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- <link
-		rel="preload"
-		href="/fonts/NB-Architekt-Pro-Light.woff"
-		as="font"
-		type="font/woff"
-		crossorigin="anonymous"
-	/> -->
-
-	<!-- <link
-		rel="preload"
-		href="/fonts/NB-Architekt-Pro-Bold.woff"
-		as="font"
-		type="font/woff"
-		crossorigin="anonymous"
-	/> -->
-
-	<!-- <link
-	rel="preload"
-	href="/fonts/Dahlia-Medium.woff2"
-	as="font"
-	type="font/woff2"
-	crossorigin="anonymous"
-/> -->
 </svelte:head>
 
 {#if Geometry}
@@ -93,11 +60,7 @@
 {/if}
 
 <div class="app-container">
-	<Sidebar
-		{currentSection}
-		onNavigate={handleNavigate}
-		organizations={data?.organizations || []}
-	/>
+	<Sidebar organizations={data?.organizations || []} />
 
 	<main class="main-content">
 		<slot />
@@ -130,27 +93,16 @@
 		font-size: 12px;
 	}
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 1rem;
-		width: 100%;
-		height: 100%;
-	}
-
 	@media (max-width: 1024px) {
 		.main-content {
-		margin-left: 0;
-		padding: 2rem;
+			margin-left: 0;
+			padding: 2rem;
 		}
 	}
 
 	@media (max-width: 768px) {
 		.main-content {
-		padding: 1.5rem;
+			padding: 1.5rem;
 		}
 	}
 </style>

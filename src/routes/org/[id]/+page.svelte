@@ -2,9 +2,8 @@
 	import OrganizationView from '$lib/components/OrganizationView.svelte';
 
 	export let data;
-	export let params;
 
-	$: organization = data.organizations?.find((org) => org.id === params.id);
+	$: organization = data.organization;
 </script>
 
 {#if organization}
@@ -12,13 +11,15 @@
 {:else}
 	<div class="not-found">
 		<h1>Organization not found</h1>
-		<p>The organization "{params.id}" doesn't exist.</p>
+		<p>The requested organization doesn't exist.</p>
+		<a href="/">Return home</a>
 	</div>
 {/if}
 
 <style>
 	.not-found {
 		padding: 2rem;
+		text-align: center;
 	}
 
 	.not-found h1 {
@@ -28,5 +29,11 @@
 
 	.not-found p {
 		color: #666;
+		margin-bottom: 1rem;
+	}
+
+	.not-found a {
+		color: var(--accent);
+		text-decoration: underline;
 	}
 </style>
