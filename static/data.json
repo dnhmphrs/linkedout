@@ -1,0 +1,896 @@
+{
+  "meta": {
+    "title": "LinkedOut",
+    "subtitle": "Berlin strategic contacts",
+    "description": "A factual reference for Berlin's geopolitical, investigative, and strategic advisory network.",
+    "footer": "We acknowledge this resource is built on the ancestral land of DARPA: ARPANET."
+  },
+  "organizations": [
+    {
+      "id": "forensis",
+      "name": "Forensis",
+      "category": "investigative",
+      "description": "Berlin-based sister agency of Forensic Architecture. Founded 2021. Specializes in spatial forensics, 3D reconstruction, and counter-investigations using 'open verification' methodologies. Part of the Investigative Commons.",
+      "website": "https://counter-investigations.org",
+      "altWebsite": "https://forensis.eu",
+      "address": "Zossener Str. 55-58, 10961 Berlin",
+      "focus": "Spatial forensics, colonial reparations, state/corporate violence accountability",
+      "notes": [
+        {
+          "title": "High OPSEC Environment",
+          "content": "'The Fridge' is a digital-free room within the Forensis office, strictly excluded from all digital equipment to prevent electronic eavesdropping and spyware like NSO's Pegasus."
+        }
+      ],
+      "keyWork": [
+        {
+          "title": "German Colonial Genocide in Namibia",
+          "description": "Quantified enduring environmental degradation of Indigenous lands through 3D reconstruction."
+        },
+        {
+          "title": "2025 Nakba Day Protests",
+          "description": "Video analysis disproved official police narratives regarding officer injuries."
+        }
+      ],
+      "people": [
+        {
+          "name": "Eyal Weizman",
+          "role": "General Secretary; Principal Investigator",
+          "email": null,
+          "emailNote": "Contact through centralized project desks",
+          "verified": false,
+          "background": "Founder of Forensic Architecture. Professor of Spatial and Visual Cultures at Goldsmiths, University of London. Developed 'Hollow Land' theory and 'forensic aesthetics' methodology. Primary base: East London and Berlin."
+        },
+        {
+          "name": "Robert Trafford",
+          "role": "Deputy Director",
+          "email": null,
+          "emailNote": "Contact through centralized project desks",
+          "verified": false,
+          "background": "British journalist specializing in OSINT research. Lead investigator on Pylos shipwreck and Hanau shootings. Research management expertise."
+        },
+        {
+          "name": "Dimitra Andritsou",
+          "role": "Coordinator",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Greek architect leading 'Three Doors' and Nakba Day investigations. Spatial research and architectural analysis."
+        }
+      ]
+    },
+    {
+      "id": "fa",
+      "name": "Forensic Architecture",
+      "category": "investigative",
+      "description": "Research agency based at Goldsmiths, University of London. Uses architectural and spatial analysis to investigate human rights violations. Produces evidence for courts, tribunals, and truth commissions. Founded by Eyal Weizman.",
+      "website": "https://forensic-architecture.org",
+      "address": "Goldsmiths, University of London",
+      "focus": "Architectural forensics, human rights investigations",
+      "notes": [],
+      "people": [
+        {
+          "name": "Samaneh Moafi",
+          "role": "Assistant Director",
+          "email": "samaneh.moafi@forensic-architecture.org",
+          "emailNote": "Pattern-based",
+          "verified": false,
+          "background": "Leads 'Cloud Studies' project. Expert in border environment research and environmental violence."
+        },
+        {
+          "name": "Nicholas Masterton",
+          "role": "Technology Lead",
+          "email": "nicholas.masterton@forensic-architecture.org",
+          "emailNote": null,
+          "verified": true,
+          "background": "3D modeling and visual evidence. Spatialization of media for legal casework."
+        }
+      ]
+    },
+    {
+      "id": "ecchr",
+      "name": "ECCHR",
+      "fullName": "European Center for Constitutional and Human Rights",
+      "category": "investigative",
+      "description": "Strategic litigation organization using universal jurisdiction to prosecute international crimes. Founded 2007 by Wolfgang Kaleck. Legal backbone for Investigative Commons. Operates Institute for Legal Intervention. Represents Edward Snowden.",
+      "website": "https://ecchr.eu",
+      "address": "Zossener Str. 55-58, 10961 Berlin",
+      "focus": "Border Justice, Climate Justice, Business and Human Rights, International Crimes",
+      "notes": [
+        {
+          "title": "Physical Proximity to Investigative Commons",
+          "content": "ECCHR's location at Zossener Str. places it in direct physical proximity to Forensis, facilitating seamless transition between evidentiary production and legal filing. This courtyard acts as the intellectual infrastructure for rights-based accountability."
+        }
+      ],
+      "people": [
+        {
+          "name": "Wolfgang Kaleck",
+          "role": "General Secretary",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Criminal attorney. Founded ECCHR in 2007. Represents Edward Snowden. Known for fearless pursuit of universal jurisdiction cases using the German Code of Crimes against International Law."
+        },
+        {
+          "name": "Miriam Saage-Maaß",
+          "role": "Legal Director",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Transnational corporate liability. Focus on Yemen and supply chain accountability. Business and Human Rights program."
+        },
+        {
+          "name": "Andrea Peschel",
+          "role": "Managing Director",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": null
+        },
+        {
+          "name": "Andreas Schüller",
+          "role": "Program Director - International Crimes and Accountability",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "International crimes program. Focus on ISIL accountability."
+        },
+        {
+          "name": "Alexander Schwarz",
+          "role": "International Crimes and Accountability",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": null
+        },
+        {
+          "name": "Anne Schroeter",
+          "role": "Investigative Commons Coordinator",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Transition justice and evidentiary analysis. Formerly with Syrian Archive. Coordinates Investigative Commons infrastructure."
+        },
+        {
+          "name": "Cannelle Lavite",
+          "role": "Business and Human Rights",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": null
+        },
+        {
+          "name": "Clara Gonzales",
+          "role": "Business and Human Rights",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": null
+        },
+        {
+          "name": "Hanaa Hakiki",
+          "role": "Border Justice Director",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Leading legal challenges against fortressed borders and migration policy."
+        }
+      ]
+    },
+    {
+      "id": "tactical",
+      "name": "Tactical Tech",
+      "category": "investigative",
+      "description": "International NGO at the intersection of technology and activism. Runs 'Exposing the Invisible' investigations training and 'The Glass Room' public interventions. Founded 2003. Focus on digital literacy and data ethics for vulnerable communities.",
+      "website": "https://tacticaltech.org",
+      "address": "Prenzlauer Berg (projects often mobile)",
+      "founded": "2003",
+      "notes": [
+        {
+          "title": "Digital Security Protocol",
+          "content": "Tactical Tech prioritizes digital security. The organization obscures individual emails in favor of project-specific PGP-keyed addresses. Staff at The Glass Room are referred to as 'Ingeniuses.'"
+        }
+      ],
+      "people": [
+        {
+          "name": "Stephanie Hankey",
+          "role": "Co-founder",
+          "email": null,
+          "emailNote": "Use project contact forms",
+          "verified": false,
+          "background": "Digital literacy strategist. Technology and social change. 2025 Bellagio Center resident."
+        },
+        {
+          "name": "Marek Tuszynski",
+          "role": "Co-founder",
+          "email": null,
+          "emailNote": "Use project contact forms",
+          "verified": false,
+          "background": "Visual technology and politics. Leads creative workshops on smart cities."
+        },
+        {
+          "name": "Laura Ranca",
+          "role": "Project Expert",
+          "email": null,
+          "emailNote": "Use project contact forms",
+          "verified": false,
+          "background": "Investigations expert. OSINT for marginalized groups."
+        },
+        {
+          "name": "Mo Radwan",
+          "role": "Project Lead",
+          "email": null,
+          "emailNote": "Use project contact forms",
+          "verified": false,
+          "background": "Media and technology integration. Focus on migrant communities."
+        }
+      ]
+    },
+    {
+      "id": "algo",
+      "name": "AlgorithmWatch",
+      "category": "investigative",
+      "description": "Monitors automated decision-making (ADM) systems in public/private sectors. Focuses on AI governance, algorithmic bias, and platform accountability. Publishes 'Automating Society' reports. Has challenged X/Twitter and Google on algorithmic harms.",
+      "website": "https://algorithmwatch.org",
+      "address": "Hermannstr. 90 (shared with Correctiv)",
+      "offices": "Berlin and Zurich",
+      "notes": [
+        {
+          "title": "Contact Protocol",
+          "content": "AlgorithmWatch uses reverse DNS blocking and directs initial inquiries through official contact forms."
+        }
+      ],
+      "people": [
+        {
+          "name": "Matthias Spielkamp",
+          "role": "Executive Director",
+          "email": null,
+          "emailNote": "Use official contact forms",
+          "verified": false,
+          "background": "AI governance. Digital transformation of journalism."
+        },
+        {
+          "name": "Angela Müller",
+          "role": "Executive Board",
+          "email": null,
+          "emailNote": "Use official contact forms",
+          "verified": false,
+          "background": "AI ethics and legal policy development. Zurich-based."
+        },
+        {
+          "name": "Nicolas Kayser-Bril",
+          "role": "Head of Journalism",
+          "email": null,
+          "emailNote": "Use official contact forms",
+          "verified": false,
+          "background": "Data journalism. Identifying systemic algorithmic bias."
+        },
+        {
+          "name": "Kilian Vieth-Ditlmann",
+          "role": "Head of Policy",
+          "email": null,
+          "emailNote": "Use official contact forms",
+          "verified": false,
+          "background": "Algorithmic accountability policy development."
+        },
+        {
+          "name": "Oliver Marsh",
+          "role": "Head of Tech Research",
+          "email": null,
+          "emailNote": "Use official contact forms",
+          "verified": false,
+          "background": "Technical research into algorithmic impacts."
+        }
+      ]
+    },
+    {
+      "id": "bga",
+      "name": "Berlin Global Advisors",
+      "shortName": "BGA",
+      "category": "advisory",
+      "description": "Independent consultancy specializing in government affairs, macro/policy intelligence, and transaction support. 'Political investment banking' model. Founding member of European Principal Group (EPG). Acquired Strategic Minds Company (SMC) in 2024. Registered as lobbyist in EU Transparency Register.",
+      "website": "https://berlinglobaladvisors.com",
+      "address": "Uhlandstraße 175, 10719 Berlin",
+      "founded": "2018",
+      "focus": "Geopolitics, capital markets, energy, defense, digital tech",
+      "notes": [],
+      "people": [
+        {
+          "name": "Jan F. Kallmorgen",
+          "role": "Founder & CEO",
+          "email": "jan.kallmorgen@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Capital markets and geopolitics. Transatlantic policy."
+        },
+        {
+          "name": "Ralf Welt",
+          "role": "Managing Partner",
+          "email": "ralf.welt@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Energy sector and supply chains. Formerly ExxonMobil. Registered lobbyist. Joined via SMC acquisition."
+        },
+        {
+          "name": "Martin Wiesmann",
+          "role": "Managing Partner",
+          "email": "martin.wiesmann@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Defence, Digital Tech, AI. Former MD at J.P. Morgan (DACH). Joined via SMC acquisition."
+        },
+        {
+          "name": "Rüdiger von Fritsch",
+          "role": "Partner",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Ret. Ambassador. Former Ambassador to Russian Federation. Russia/Poland expertise."
+        },
+        {
+          "name": "Dr. Joachim von der Goltz",
+          "role": "Partner",
+          "email": "joachim.vondergoltz@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Equity Capital Markets; technology sector expertise."
+        },
+        {
+          "name": "Dr. Sven Behrendt",
+          "role": "Partner / Advisor",
+          "email": "sven.behrendt@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Strategic advice and global portfolio management."
+        },
+        {
+          "name": "Dr. Arndt Freytag von Loringhoven",
+          "role": "Senior Advisor",
+          "email": "arndt.freytag@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Former NATO Intelligence General. Security and defense."
+        },
+        {
+          "name": "Dr. Donatus Kaufmann",
+          "role": "Senior Partner",
+          "email": "donatus.kaufmann@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Top-level industrial sector expertise."
+        },
+        {
+          "name": "Felix Dane",
+          "role": "Senior Advisor",
+          "email": "felix.dane@bga.global",
+          "emailNote": null,
+          "verified": true,
+          "background": "Strategic advisory and policy intelligence."
+        }
+      ]
+    },
+    {
+      "id": "agora",
+      "name": "Agora Strategy Group",
+      "category": "advisory",
+      "description": "Founded 2015 by Ambassador Wolfgang Ischinger. Recognized as 'Hidden Champion' of consulting 2026/27. Bifurcated into strategy consulting and the Agora Strategy Institute think tank. Global network of 300+ experts from diplomacy, military, and science. G.E.T. Model (Geopolitics, ESG, Technology) framework.",
+      "website": "https://agora-strategy.com",
+      "address": "Pariser Platz 6, 10117 Berlin",
+      "offices": "Berlin and Munich",
+      "founded": "2015",
+      "notes": [
+        {
+          "title": "Contact Protocol",
+          "content": "Email infrastructure highly restricted with technical blocking measures. Outreach most effective via Munich Security Conference network or LinkedIn."
+        }
+      ],
+      "divisions": [
+        {
+          "name": "Strategy Group",
+          "people": [
+            {
+              "name": "Dr. Timo Blenk",
+              "role": "CEO",
+              "email": null,
+              "emailNote": "Use LinkedIn or MSC network",
+              "verified": false,
+              "background": "Former McKinsey consultant. Geopolitics and financial regulation expertise. Moderator at Global Young Leaders Dialogue."
+            },
+            {
+              "name": "Fabian Vetter",
+              "role": "Partner",
+              "email": null,
+              "emailNote": "Use LinkedIn",
+              "verified": false,
+              "background": "Operations and MENA security."
+            },
+            {
+              "name": "Lena Schorlemer",
+              "role": "Director",
+              "email": null,
+              "emailNote": "Use LinkedIn",
+              "verified": false,
+              "background": "Risk analysis and strategy."
+            },
+            {
+              "name": "Prof. Dr. Kai Andrejewski",
+              "role": "Senior Partner",
+              "email": null,
+              "emailNote": "Use LinkedIn",
+              "verified": false,
+              "background": "Capital markets and G.E.T. Model framework development."
+            },
+            {
+              "name": "Dr. Gerhard Conrad",
+              "role": "Senior Advisor",
+              "email": null,
+              "emailNote": "Use LinkedIn",
+              "verified": false,
+              "background": "Senior advisory role in political risk analysis."
+            }
+          ]
+        },
+        {
+          "name": "Agora Strategy Institute",
+          "people": [
+            {
+              "name": "Dr. Peter Ammon",
+              "role": "Head of Institute",
+              "email": null,
+              "emailNote": "Use LinkedIn or MSC network",
+              "verified": false,
+              "background": "Former State Secretary. Former Ambassador to US, UK, and France. Provides monthly briefing calls and executive reports."
+            },
+            {
+              "name": "Dr. Elli-Katharina Pohlkamp",
+              "role": "Director",
+              "email": null,
+              "emailNote": "Use LinkedIn",
+              "verified": false,
+              "background": "East Asia politics and defense. Japan-China relations specialist. European Council on Foreign Relations fellow."
+            },
+            {
+              "name": "Prof. Dr. h.c. Wolfgang Ischinger",
+              "role": "Honorary Chairman / Founder",
+              "email": null,
+              "emailNote": "Contact via MSC network or LinkedIn",
+              "verified": false,
+              "background": "Former German Ambassador to US and UK. Former Chairman of Munich Security Conference. Leading figure in transatlantic security policy."
+            }
+          ]
+        }
+      ],
+      "people": []
+    },
+    {
+      "id": "bernstein",
+      "name": "Bernstein Group",
+      "category": "advisory",
+      "description": "Data-driven management consulting. Analytics division uses OSINT and political data science for highly regulated industries. Divisions: Public Policy, Analytics, Health, Communications, Network.",
+      "website": "https://bernstein-group.com",
+      "address": "Berlin",
+      "notes": [],
+      "people": [
+        {
+          "name": "Timm Bopp",
+          "role": "Bernstein Public Policy",
+          "email": "bopp@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Ministerial and parliamentary representation."
+        },
+        {
+          "name": "Matthias Rolfs",
+          "role": "Bernstein Analytics",
+          "email": "rolfs@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Data-driven political analysis and OSINT."
+        },
+        {
+          "name": "Johannes Heuser",
+          "role": "Bernstein Health",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Health policy and market access."
+        },
+        {
+          "name": "Ralf Kunkel",
+          "role": "Bernstein Communications",
+          "email": "kunkel@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Crisis and strategic communication."
+        },
+        {
+          "name": "Julian Schibberges",
+          "role": "Bernstein Network",
+          "email": "schibberges@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "OSINT and political data science."
+        },
+        {
+          "name": "Julia Spitze",
+          "role": "CEO",
+          "email": "spitze@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Strategic positioning and leadership."
+        },
+        {
+          "name": "Sven Rawe",
+          "role": "Founder / Advisor",
+          "email": "rawe@bernstein-group.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Communications consultant."
+        }
+      ]
+    },
+    {
+      "id": "teneo",
+      "name": "Teneo",
+      "category": "advisory",
+      "description": "Global CEO advisory firm. Geopolitical Risk team translates developments into business takeaways. Strategic partnership with WestExec Advisors. Registered in German lobbying register.",
+      "website": "https://teneo.com",
+      "notes": [],
+      "people": [
+        {
+          "name": "Kevin Kajiwara",
+          "role": "President, Political Risk Advisory",
+          "email": "kevin.kajiwara@teneo.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Political risk advisory. Strategic counsel for C-suite."
+        },
+        {
+          "name": "Carsten Nickel",
+          "role": "Managing Director",
+          "email": "carsten.nickel@teneo.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Geopolitical risk analysis. European politics."
+        },
+        {
+          "name": "Anne Frühauf",
+          "role": "Managing Director",
+          "email": "anne.fruhauf@teneo.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Geopolitical risk and energy markets."
+        },
+        {
+          "name": "David Issmer",
+          "role": "Managing Director",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Leads German operations. British Chamber of Commerce in Germany member."
+        },
+        {
+          "name": "Nitin K. Chadda",
+          "role": "Vice Chairman",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Strategic advisory."
+        }
+      ]
+    },
+    {
+      "id": "westexec",
+      "name": "WestExec Advisors",
+      "category": "advisory",
+      "description": "Strategic advisory firm founded by former senior national security officials. Defense, intelligence, cybersecurity counsel. Strategic partnership with Teneo.",
+      "website": "https://westexec.com",
+      "address": "Washington, DC",
+      "notes": [],
+      "people": [
+        {
+          "name": "Michèle Flournoy",
+          "role": "Co-founder & Partner",
+          "email": "michele@westexec.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Former Under Secretary of Defense for Policy."
+        },
+        {
+          "name": "Sergio Aguirre",
+          "role": "Co-founder & Partner",
+          "email": "sergio.aguirre@westexec.com",
+          "emailNote": null,
+          "verified": true,
+          "background": "Strategic advisory on defense and intelligence."
+        }
+      ]
+    },
+    {
+      "id": "correctiv",
+      "name": "Correctiv",
+      "category": "transparency",
+      "description": "Non-profit investigative journalism center. Germany's first non-profit newsroom. Uses crowdsourcing tools to strengthen civil society. Focus on abuse of power and corruption. Projects include CORRECTIV.Europe and CORRECTIV.Exile.",
+      "website": "https://correctiv.org",
+      "address": "Hermannstr. 90 (shared with AlgorithmWatch)",
+      "founded": "2014",
+      "notes": [],
+      "people": [
+        {
+          "name": "David Schraven",
+          "role": "Publisher / Founder",
+          "email": "david.schraven@correctiv.org",
+          "emailNote": "Document reference (unverified)",
+          "verified": false,
+          "background": "Founded Germany's first non-profit newsroom. Former editor at WAZ media group. Leading investigative journalist focused on systemic corruption."
+        },
+        {
+          "name": "Olaya Argüeso",
+          "role": "Editor-in-Chief",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Public interest journalism."
+        },
+        {
+          "name": "Justus von Daniels",
+          "role": "Editor-in-Chief",
+          "email": "justus.von.daniels@correctiv.org",
+          "emailNote": "Document reference (unverified)",
+          "verified": false,
+          "background": "Lobbying investigations. Mapping influence networks and corporate-political relationships."
+        },
+        {
+          "name": "Jean Peters",
+          "role": "Investigative Lead",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Extremism strategy and investigations."
+        },
+        {
+          "name": "Alexej Hock",
+          "role": "Investigative Reporter",
+          "email": "alexej.hock@correctiv.org",
+          "emailNote": "Document reference (unverified)",
+          "verified": false,
+          "background": "Disinformation research. Digital propaganda and influence operations."
+        }
+      ]
+    },
+    {
+      "id": "lobbycontrol",
+      "name": "LobbyControl",
+      "category": "transparency",
+      "description": "NGO advocating for transparency and democratic boundaries in political lobbying. Monitors corporate influence on policy-making. Campaigns for lobby registers and stricter revolving door regulations.",
+      "website": "https://lobbycontrol.de",
+      "address": "Cologne / Berlin",
+      "notes": [],
+      "people": [
+        {
+          "name": "Ulrich Müller",
+          "role": "Board Member",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Lobbying transparency and democratic accountability."
+        },
+        {
+          "name": "Nina Katzemich",
+          "role": "Campaign Leader",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Lobbying campaigns and revolving door research."
+        }
+      ]
+    },
+    {
+      "id": "berlin-risk",
+      "name": "Berlin Risk",
+      "category": "transparency",
+      "description": "Corporate intelligence, investigations, and risk assessment. Specializes in reputational due diligence and litigation support. Focus on RegTech and Anti-Financial Crime (AFC). Identifies PEPs and UBOs.",
+      "website": "https://berlinrisk.com",
+      "address": "Berlin",
+      "notes": [
+        {
+          "title": "Technical Barriers",
+          "content": "Berlin Risk employs reverse DNS blocking to prevent external email verification. Alternative contact routes through professional networks recommended."
+        }
+      ],
+      "people": [
+        {
+          "name": "Dr. Carsten Giersch",
+          "role": "Managing Director",
+          "email": null,
+          "emailNote": "Use professional networks",
+          "verified": false,
+          "background": "Political due diligence. Reputational risk. Emphasizes qualitative risk assessment."
+        },
+        {
+          "name": "Jennifer Hanley-Giersch",
+          "role": "Co-founder",
+          "email": null,
+          "emailNote": "Use professional networks",
+          "verified": false,
+          "background": "AFC technology. High-risk customer management. RegTech solutions."
+        },
+        {
+          "name": "Dr. Bernd Träxler",
+          "role": "Associate Partner",
+          "email": null,
+          "emailNote": "Use professional networks",
+          "verified": false,
+          "background": "Development bank compliance. Sanction mechanisms."
+        },
+        {
+          "name": "Annette Farrenkopf",
+          "role": "COO (ALL AML)",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Information security. Finance compliance."
+        },
+        {
+          "name": "Leonie Klimpke",
+          "role": "Director (ALL AML)",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Venture capital finance. Compliance."
+        }
+      ]
+    },
+    {
+      "id": "swp",
+      "name": "SWP",
+      "fullName": "Stiftung Wissenschaft und Politik",
+      "category": "thinktank",
+      "description": "German Institute for International and Security Affairs. Semi-official think tank funded primarily through Chancellery budget. Advises the Bundestag, NATO, and UN on emerging threats and international crisis management. Research divisions: EU/Europe, International Security, Global Issues, Asia, Americas.",
+      "website": "https://swp-berlin.org",
+      "address": "Ludwigkirchplatz 3-4, Berlin",
+      "notes": [],
+      "people": []
+    },
+    {
+      "id": "global-neighbors",
+      "name": "Global Neighbors",
+      "category": "thinktank",
+      "description": "European-Asian strategic dialogue platform. Focus on sustainable investment and cross-cultural exchange. Founded 2022 by Jovanka Porsche.",
+      "website": "https://globalneighbours.org",
+      "founded": "2022",
+      "notes": [],
+      "people": [
+        {
+          "name": "Jovanka Porsche",
+          "role": "Founder",
+          "email": "jovanka.porsche@globalneighbours.org",
+          "emailNote": null,
+          "verified": true,
+          "background": "Investor and entrepreneur. Asian investments strategy."
+        },
+        {
+          "name": "Christian Kern",
+          "role": "Board Member",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Former Chancellor of Austria."
+        },
+        {
+          "name": "Philipp Rösler",
+          "role": "Board Member",
+          "email": null,
+          "emailNote": "Pattern-based (not verified)",
+          "verified": false,
+          "background": "Former German Vice Chancellor."
+        }
+      ]
+    },
+    {
+      "id": "global-bridges",
+      "name": "Global Bridges",
+      "category": "thinktank",
+      "description": "Non-profit think tank focusing on Sino-German and Sino-European relations. Promotes economic and cultural dialogue.",
+      "website": "https://globalbridges.de",
+      "founded": "2008",
+      "notes": [],
+      "people": [
+        {
+          "name": "Hans Albrecht",
+          "role": "Chairman",
+          "email": null,
+          "emailNote": "Catch-all email; pattern guess (not verified)",
+          "verified": false,
+          "background": "Managing Partner, Nordwind Capital."
+        },
+        {
+          "name": "Sarah Kirchberger",
+          "role": "Board Member",
+          "email": null,
+          "emailNote": "Catch-all email; pattern guess (not verified)",
+          "verified": false,
+          "background": "Director, Institute for Security Policy, Kiel University."
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-02-09",
+      "title": "MSC Kick-off",
+      "location": "Representation of Bavaria, Berlin",
+      "themes": "Security architecture; Munich Security Report"
+    },
+    {
+      "date": "2026-03-19",
+      "dateEnd": "2026-03-22",
+      "title": "Disruption Network Lab: WikiLeaks Symposium",
+      "location": "HAU1, Kreuzberg",
+      "themes": "Whistleblowing; Corporate secrets; WikiLeaks team"
+    },
+    {
+      "date": "2026-05-18",
+      "dateEnd": "2026-05-20",
+      "title": "re:publica",
+      "location": "STATION Berlin",
+      "themes": "Digital culture; Algorithmic bias; Cross-generational alliances"
+    },
+    {
+      "date": "2026-06-10",
+      "dateEnd": "2026-06-11",
+      "title": "Bosch Connected World",
+      "location": "STATION Berlin",
+      "themes": "IoT; Industrial AI; Cyber risk"
+    },
+    {
+      "date": "2026-06-15",
+      "dateEnd": "2026-06-19",
+      "title": "IT Security Summit",
+      "location": "Berlin",
+      "themes": "Cybersecurity; Network infrastructure security"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Berlin Security Conference",
+      "location": "TBC",
+      "themes": "Total Defence; NATO; Software-Defined Defence"
+    }
+  ],
+  "locations": [
+    {
+      "address": "Zossener Str. 55-58, Kreuzberg",
+      "organizations": ["ECCHR", "Forensis", "Investigative Commons"],
+      "description": "This courtyard acts as the intellectual infrastructure for rights-based accountability. Physical proximity enables seamless transition between evidentiary production and legal filing."
+    },
+    {
+      "address": "Hermannstr. 90, Neukölln",
+      "organizations": ["AlgorithmWatch", "Correctiv"],
+      "description": "Shared space for digital accountability and investigative journalism."
+    },
+    {
+      "address": "Pariser Platz 6, Berlin",
+      "organizations": ["Agora Strategy Group"],
+      "description": "Prime location near Brandenburg Gate for strategic advisory services."
+    },
+    {
+      "address": "Uhlandstraße 175, Charlottenburg",
+      "organizations": ["Berlin Global Advisors"],
+      "description": "Strategic advisory headquarters."
+    },
+    {
+      "address": "STATION Berlin, Kreuzberg",
+      "organizations": ["Events: re:publica, tech conferences"],
+      "description": "Major venue for digital culture and technology events."
+    },
+    {
+      "address": "HKW (Haus der Kulturen der Welt), Tiergarten",
+      "organizations": ["Events: Forensis exhibitions, strategic conferences"],
+      "description": "Cultural venue hosting investigative and geopolitical discourse."
+    },
+    {
+      "address": "Kunstquartier Bethanien, Kreuzberg",
+      "organizations": ["Disruption Network Lab"],
+      "description": "Cultural space for critical technology and whistleblowing events."
+    }
+  ]
+}

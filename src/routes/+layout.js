@@ -1,3 +1,11 @@
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
+// +layout.js
 export const prerender = true;
+
+export async function load({ fetch }) {
+    const response = await fetch('/data.json');
+    const data = await response.json();
+    
+    // Spread the data so keys like 'organizations' 
+    // are top-level in your components
+    return { ...data }; 
+}

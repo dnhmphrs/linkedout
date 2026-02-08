@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"gl-matrix": "^3.4.3"
+		"gl-matrix": "^3.4.3",
+		"three": "^0.141.0"
 	}
 }

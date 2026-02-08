@@ -9,8 +9,19 @@
 	import { screenType, isIframe, screenSize } from '$lib/store/store';
 	import { getDeviceType, getScreenSize } from '$lib/functions/utils';
 
+	import Sidebar from '$lib/components/Sidebar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import { goto } from '$app/navigation';
+	// import './app.css';
+
 	export let data;
 	let Geometry;
+
+	function handleNavigate(section) {
+		goto(`/${section === 'home' ? '' : section}`);
+	}
+
+	$: currentSection = $page.url.pathname === '/' ? 'home' : $page.url.pathname.slice(1);
 
 	$: if (browser && data?.analyticsId) {
 		webVitals({
@@ -31,7 +42,7 @@
 
 	onMount(async () => {
 		// webgl
-		const module = await import('$lib/graphics/webgl.svelte');
+		const module = await import('$lib/graphics/three.svelte');
 		Geometry = module.default;
 
 		handleScreen();
@@ -44,13 +55,11 @@
 </script>
 
 <svelte:head>
-	<title>Der logische Aufbau der Web</title>
+	<title>LinkedOut</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="AUFBAU" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link rel="preload" href="/aufbau.svg" as="image" type="image/svg+xml" crossorigin="anonymous" />
 
 	<!-- <link
 		rel="preload"
@@ -83,22 +92,27 @@
 	<div class="loading">loading.</div>
 {/if}
 
-<div class="app">
-	<main>
-		<slot />
+<div class="app-container">
+	<Sidebar {currentSection} onNavigate={handleNavigate} />
+	
+	<main class="main-content">
+	  <slot />
 	</main>
-</div>
+  
+	<Footer />
+  </div>
 
 <style>
-	.app {
+	.app-container {
 		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 100dvh;
-		max-height: 100vh;
-		width: 100%;
-		overflow: hidden;
+		min-height: 100vh;
+	}
+
+	.main-content {
+		flex: 1;
+		margin-left: 240px;
+		padding: 3rem;
+		padding-bottom: 6rem;
 	}
 
 	.loading {
@@ -121,5 +135,18 @@
 		padding: 1rem;
 		width: 100%;
 		height: 100%;
+	}
+
+	@media (max-width: 1024px) {
+		.main-content {
+		margin-left: 0;
+		padding: 2rem;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.main-content {
+		padding: 1.5rem;
+		}
 	}
 </style>
