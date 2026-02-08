@@ -2,7 +2,7 @@
   // No props needed for home page
 </script>
 
-<div class="home">
+<!-- <div class="home">
   <header class="hero">
     <h1>LinkedOut</h1>
     <p>A sketch of Berlin's geopolitical, investigative, and strategic advisory network.</p>
@@ -25,7 +25,7 @@
       <p>Organizations monitoring automated decision-making systems, AI governance, and the erosion of digital rights.</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <style>
   .home {

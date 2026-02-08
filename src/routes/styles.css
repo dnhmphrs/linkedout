@@ -13,9 +13,11 @@
 
 :root {
 	--background: #232323;
+	--bg: #0072b180;
 	--background-50: #23232380;
 	--primary: #d0d0d0;
 	--primary-50: #d0d0d0;
+	--border: #d0d0d080;
 }
 
 :root {
@@ -126,3 +128,22 @@ button:focus:not(:focus-visible) {
 		font-size: 13px;
 	}
 }
+
+/* Scrollbar styling - 1px width */
+::-webkit-scrollbar {
+	width: 1px;
+	height: 1px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: var(--primary);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: var(--text-tertiary);
+  }
+  

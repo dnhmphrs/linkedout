@@ -21,22 +21,22 @@
     <!-- <p>Berlin strategic contacts</p> -->
   </div>
 
-  <div class="search">
+  <!-- <div class="search">
     <input
       type="text"
       placeholder="Search..."
       bind:value={searchQuery}
       on:input
     />
-  </div>
+  </div> -->
 
   <nav>
-    <div class="nav-section">
+    <!-- <div class="nav-section">
       <div class="nav-title">Overview</div>
       <a href="/" class="nav-link" class:active={$page.url.pathname === '/'}>
         Home
       </a>
-    </div>
+    </div> -->
 
     {#if categories.investigative.length}
     <div class="nav-section">
@@ -121,7 +121,7 @@
 <style>
   .sidebar {
     width: var(--sidebar);
-    background: var(--bg-alt);
+    background: var(--bg);
     border-right: 1px solid var(--border);
     position: fixed;
     height: 100vh;
@@ -146,10 +146,10 @@
     font-size: 2.0rem;
   }
 
-  .brand p {
+  /* .brand p {
     font-size: 0.875rem;
     color: var(--text-tertiary);
-  }
+  } */
 
   .search {
     padding: 0 1.5rem 1.5rem;
@@ -163,7 +163,7 @@
     border: 1px solid var(--border);
     border-radius: 6px;
     font-size: 0.875rem;
-    background: var(--bg);
+    background: var(--background);
   }
 
   .search input:focus {
@@ -199,7 +199,7 @@
   }
 
   .nav-link.active {
-    background: var(--bg);
+    /* background: var(--bg); */
     color: var(--accent);
     border-left-color: var(--accent);
     font-weight: 500;
